@@ -95,6 +95,5 @@ This system is production-ready for:
 
 ---
 
-**Developed for GeoAI Hackathon 2024**  
-**Team**: GeoAI Solutions  
-**Contact**: [Your Contact Information]
+**Developed for National Geographical AI Hackathon 2025 (Techfest IIT Bombay)**  
+**Team**: GeoGPT

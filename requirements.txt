@@ -1,0 +1,63 @@
+# Core geospatial dependencies
+GDAL>=3.4.0
+rasterio>=1.3.0
+geopandas>=0.12.0
+shapely>=2.0.0
+pyproj>=3.4.0
+fiona>=1.8.0
+
+# Point cloud processing
+laspy>=2.3.0
+pdal>=3.2.0
+
+# AI/ML dependencies
+torch>=1.13.0
+torchvision>=0.14.0
+tensorflow>=2.11.0
+scikit-learn>=1.2.0
+xgboost>=1.7.0
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Database and caching
+psycopg2-binary>=2.9.0
+sqlalchemy>=2.0.0
+redis>=4.5.0
+
+# Web framework and APIs
+fastapi>=0.95.0
+uvicorn>=0.20.0
+requests>=2.28.0
+httpx>=0.24.0
+
+# Visualization and plotting
+matplotlib>=3.6.0
+plotly>=5.13.0
+folium>=0.14.0
+
+# Optimization
+deap>=1.3.0  # For genetic algorithms
+pymoo>=0.6.0  # Multi-objective optimization
+
+# Monitoring and logging
+prometheus-client>=0.16.0
+structlog>=22.3.0
+
+# Development and testing
+pytest>=7.2.0
+pytest-asyncio>=0.21.0
+hypothesis>=6.68.0  # Property-based testing
+black>=23.1.0
+flake8>=6.0.0
+mypy>=1.0.0
+
+# MLOps
+mlflow>=2.2.0
+shap>=0.41.0  # Explainable AI
+
+# Utilities
+python-dotenv>=1.0.0
+pydantic>=1.10.0,<2.0.0  # Pin to v1 for compatibility
+pydantic-settings>=2.0.0  # For BaseSettings
+typer>=0.7.0
+rich>=13.3.0
